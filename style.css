@@ -2,10 +2,12 @@
     margin:0;
     padding:0;
 }
+
 nav{
     background-color: black;
     color:white;
     padding:15px;
+    
 }
 li,h1,ul{
     display:inline;
@@ -13,37 +15,32 @@ li,h1,ul{
     padding:10px;
 }
 ul{
-    margin-left:50%;
+    margin-left:60%;
 }
 li:hover{
     color:red;
 }
-input{
-    width:60%;
-    padding:15px;
-
+body{
+    background-image: url('images/gate.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
-center{
-    background-color: red;
-    color:blue;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    color:white;
+}
+
+h2{
+   
+    color:red
     padding:10px;
     font-size: 50px;
 
 }
-.searchbar{
-    padding:50px;
-    text-align:center;
-}
-.box{
-    
-    display:inline-block;
-    width:220px;
 
-}
-.box:hover{
-    background-color: black;
-    color:white;
-}
-.products{
-    text-align:center;
-}
+
+
